@@ -1,0 +1,16 @@
+# prowl-github-app configuration. Place in default branch
+
+version: '0.1.0'
+
+pull_requests:
+  - id: catchall
+    match:
+      - **/*
+    base:
+      - master
+    merge: squash
+    reviewers:
+      - tommilligan
+    review_methods:
+      - comment
+
