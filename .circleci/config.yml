@@ -2,13 +2,13 @@ version: 2
 jobs:
   build:
     docker:
-      - image: abronan/rust-circleci:latest
+      - image: circleci/node:8.11.3-browsers
     steps:
       - checkout
       - run: echo "hello world"
   test:
     docker:
-      - image: abronan/rust-circleci:latest
+      - image: circleci/node:8.11.3-browsers
     steps:
       - checkout
       - run: echo "hello world"
