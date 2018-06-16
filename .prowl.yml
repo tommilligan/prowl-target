@@ -11,6 +11,7 @@ pull_requests:
     merge: squash
     reviewers:
       - tommilligan
-    review_methods:
+    approve_methods:
       - comment
+      - review
 
