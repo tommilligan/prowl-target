@@ -17,5 +17,6 @@ pull_requests:
       base: master
     constrain:
       reviewers:
+        - tommilligan
         - tommilligan-plutoflume
 
