@@ -4,24 +4,18 @@ version: '0.1.0'
 
 pull_requests:
   - id: catchall
-    include:
-      - "**/*"
-    base:
-      - master
-    merge: squash
-    reviewers:
-      - tommilligan
-    approve_methods:
-      - comment
-      - review
+    spec:
+      paths:
+        - "**/*"
+      base: master
+    constrain:
+      reviewers: []
   - id: markdown
-    include:
-      - "**/*.md"
-    base:
-      - master
-    merge: squash
-    reviewers: []
-    approve_methods:
-      - comment
-      - review
+    spec:
+      paths:
+        - "**/*.md"
+      base: master
+    constrain:
+      reviewers:
+        - tommilligan
 
