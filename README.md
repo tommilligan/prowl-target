@@ -16,4 +16,5 @@ Checking merge result
 ## Collaboration
 
 Added a collaborator to the project
+They should review markdown only
 
