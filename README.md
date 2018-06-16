@@ -6,3 +6,7 @@ Example repo for testing prowl-github-app
 
 Markdown requires a review, others will be auto-merged
 
+## .prowl.yml
+
+See the `examples/` dir for supported configs
+
