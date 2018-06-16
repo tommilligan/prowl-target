@@ -7,4 +7,5 @@ Adds a line in the readme - bumpys
 Added bump script
 Checking PRs
 Added logging
+Added actual merging
 
