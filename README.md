@@ -5,4 +5,5 @@ Example repo for testing prowl-github-app
 
 Adds a line in the readme - bumpys!
 Added bump script
+Checking PRs
 
