@@ -9,3 +9,7 @@ Checking PRs
 Added logging
 Added actual merging
 
+## PR-2
+
+Checking merge result
+
