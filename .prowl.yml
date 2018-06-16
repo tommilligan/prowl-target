@@ -16,6 +16,5 @@ pull_requests:
         - "**/*.md"
       base: master
     constrain:
-      reviewers:
-        - tommilligan
+      reviewers: []
 
