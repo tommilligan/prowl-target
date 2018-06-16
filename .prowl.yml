@@ -16,5 +16,6 @@ pull_requests:
         - "**/*.md"
       base: master
     constrain:
-      reviewers: []
+      reviewers:
+        - tommilligan-plutoflume
 

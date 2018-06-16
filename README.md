@@ -13,7 +13,7 @@ Added actual merging
 
 Checking merge result
 
-## bump
+## Collaboration
 
-Run `./bump` for easy testing
+Added a collaborator to the project
 
