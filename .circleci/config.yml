@@ -5,7 +5,7 @@ jobs:
       - image: circleci/node:8.11.3-browsers
     steps:
       - checkout
-      - run: sleep 30s
+      - run: sleep 60s
   test:
     docker:
       - image: circleci/node:8.11.3-browsers
