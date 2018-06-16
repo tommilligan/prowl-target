@@ -5,7 +5,7 @@ version: '0.1.0'
 pull_requests:
   - id: catchall
     include:
-      - "./**/*"
+      - "**/*"
     base:
       - master
     merge: squash
