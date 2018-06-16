@@ -13,3 +13,7 @@ Added actual merging
 
 Checking merge result
 
+## bump
+
+Run `./bump` for easy testing
+
