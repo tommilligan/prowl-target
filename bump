@@ -1,5 +1,6 @@
 #!/bin/sh
+
 git add --all
-git commit -m "bump"
+git commit -m "bump $(date -Iseconds)"
 git push
 
