@@ -17,5 +17,4 @@ Checking merge result
 
 Added a collaborator to the project
 They should review markdown only
-!!!!x
 
