@@ -14,4 +14,14 @@ pull_requests:
     approve_methods:
       - comment
       - review
+  - id: markdown
+    include:
+      - "**/*.md"
+    base:
+      - master
+    merge: squash
+    reviewers: []
+    approve_methods:
+      - comment
+      - review
 
