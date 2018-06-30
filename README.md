@@ -11,4 +11,3 @@ Ony one reviewer from each config is required
 
 See the `examples/` dir for supported configs
 
-bump
