@@ -9,7 +9,5 @@ targets:
         - "**/*.md"
       base: master
     pounce:
-      reviewers:
-        - tommilligan
-        - tommilligan-plutoflume
+      reviewers: []
 
