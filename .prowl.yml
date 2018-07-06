@@ -11,3 +11,12 @@ targets:
     pounce:
       reviewers: []
 
+  - id: markdown
+    stalk:
+      paths:
+        - "dry/**/*"
+      base: master
+    pounce:
+      reviewers: []
+    dry_run: true
+
