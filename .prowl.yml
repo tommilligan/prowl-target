@@ -3,20 +3,31 @@
 version: '0.1.0'
 
 targets:
-  - id: markdown
+  - id: docs
     stalk:
       paths:
         - "**/*.md"
       base: master
     pounce:
-      reviewers: []
+      action: status
+      auto_pounce: true
+      author_implicit_reviewer: true
+      commit_message_pr_number: true
+      reviewers:
+        - tommilligan
+      merge_method: merge
+      not_ready_labels:
+        - WIP
+        - nomerge
 
-  - id: markdown
+  - id: code
     stalk:
       paths:
-        - "dry/**/*"
+        - "**/*.py"
       base: master
     pounce:
-      reviewers: []
-    dry_run: true
+      reviewers:
+        - tommilligan
+        - tommilligan-plutoflume
+      merge_method: merge
 
